@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Visualizer</title>
+  <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="lib/id3-minimized.js"></script>
+  <script type="text/javascript" src="scripts/visualizer.js" defer></script>
+  <link type="text/css" rel="stylesheet" href="css/v.css"/>
+ </head>
+ <body class="bdy">
+  <audio id="audioCurrentTrack"></audio>
+  <div id="topMenu">
+    <div id="fileUploadCustom" class="topMenuCtrl tooltips">
+      <label for="mp3FileSelector" id="lblFileSelect">
+        <img src="resources/svg/plus79.svg" id="imgPlus" class="controlImg">
+      </label>
+      <input type="file" id="mp3FileSelector" name="mp3FileSelector"/>
+      <span id="idTooltip">Add an mp3.</span>
+    </div>
+    <span id="fileName"></span>
+    <input type="range" id="seekSlider" value="0" min="0" max="100" step="1"/>
+    <div id="stopCtrl" class="topMenuCtrl"><img src="resources/svg/stop4.svg" id="btnStop"/></div><div id="playCtrl" class="topMenuCtrl"><img src="resources/svg/media23.svg"  id="btnPlay"/></div><div id="pauseCtrl" class="topMenuCtrl"><img src="resources/svg/pause18.svg"  id="btnPause"/></div>
+    <input type="range" id="volSlider" min="0" max="100" class="controlImg"/>
+  </div>
+  <canvas id="visualizer"></canvas>
+  <a id="backHome" href="http://zel.io">
+    <img src="resources/svg/back57.svg" id="imgBack">      
+  </a>
+ </body>
+</html>

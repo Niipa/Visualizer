@@ -1,0 +1,47 @@
+#divWelcomeContainer{
+  position:fixed;
+  top:15%;
+  left:15%;
+}
+#divWelcomeContainer header{
+  position:relative;
+  left:-3%;
+  top:-3%;
+  font-family:Georgia;
+  font-size:32px;
+  font-style:italic;
+}
+#divWelcomeContainer img{
+  position:relative;
+  width:100%;
+  float:left;
+}
+#divWelcomeContainer a{
+  position:relative;
+  font-style:italic;
+  font-size:24px;
+}
+table{
+  width:25%;
+}
+tr{
+  height:100px;
+}
+td{
+  width:50%;
+  height:50%;  
+  padding-top:24px;
+}
+#linkColumn{
+  padding-left:30px;
+}
+body{
+  background-color:#E6E6E6;
+}
+#ftr{
+  position: fixed;
+  bottom:3%;
+  left:1%;
+  font-family: georgia;
+  font-size: 90%;
+}

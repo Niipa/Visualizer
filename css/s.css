@@ -1,0 +1,101 @@
+
+@charset "UTF-8";
+*:focus{
+    outline: none
+}
+#content{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+}
+#resultTables {
+    font-family: georgia;
+    position: relative;
+    margin-top: 15%;
+}
+.classStockTables{
+	position:relative;
+	z-index:-1;
+}
+.classTblCell0 {
+    font-style: oblique;
+}
+.classTblCell1 {
+    position: absolute;
+    right: 0%;
+}
+#frm {
+	  position: relative;
+    font-family: georgia;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius:10px;
+    z-index:10;
+    background-color:#FFFFFF;
+}
+#idStockSymbols {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 80%;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border: hidden;
+    width: 97%;
+    margin-bottom: 1%;
+    font-family: sans-serif;
+    z-index:11;
+    padding: 0;
+    white-space: pre;
+}
+[tooltip]:before {
+    /* needed - do not touch */
+    content: attr(tooltip);
+    position: absolute;
+    opacity: 0;
+    
+    /* customizable */
+    transition: all 0.15s ease;
+    padding: 10px;
+    color: #B5C8F;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px silver;    
+}
+[tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+    
+    /* customizable */
+    background: #B5C8FF;
+    margin-top: 5%;
+    margin-left: 0%;
+    z-index: 10;
+}
+#hdr{
+    position: fixed;
+    top: 0;
+    width: 99%;
+    margin-top:1%;
+}
+#ftr{
+	position: fixed;
+	bottom:3%;
+	left:1%;
+  font-family: georgia;
+  font-size: 90%;
+}
+#articleAbout{
+	position:relative;
+	margin-top: 10%;
+	font-family: georgia;
+}
+#imgBack{
+  position:fixed;
+  width:1.5%;
+  left:0.25%;
+  bottom:0.25%;
+}

@@ -1,0 +1,131 @@
+#visualizer {
+  position:fixed;
+  top:5%;
+  left:0;
+  width: 100%;
+  height: 95%;
+  z-index: -1;
+}
+.bdy {
+  background-color: #F5F5F5;
+}
+.topMenuCtrl:hover{
+  background-color:#3F6DAA;
+}
+.topMenuCtrl{
+  border-top-style:none;
+  border-bottom-style:none;
+  border-left-style:none;
+  border-right-style:solid;
+  border-width:1px;
+  border-color:#35619C;
+  position:fixed;
+  height:inherit;
+  width:2.5%;
+}
+.topMenuCtrl img{
+  position:relative;
+  max-width:50%;
+  max-height:50%;
+  left:25%;
+  top:25%;
+}
+#imgPlus{
+  position:relative;
+  max-width:70%;
+  max-height:70%;
+  left:15%;
+  top:15%;
+}
+#fileUploadCustom{
+  border-right-style:none;
+}
+#topMenu{
+  height: 5%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  background-color:#4679BD;
+  left:0;
+}
+#mp3FileSelector{
+  display:none;
+}
+#volSlider{
+  top:1.75%;
+  right:1%;
+  height:1%;
+  position:inherit;
+  width:7%;
+}
+#pauseCtrl{
+  right:11.1%;
+  border-right-style:none;
+}
+#seekSlider{
+  position: fixed;
+  width:50%;
+  height:1%;
+  top:1.75%;
+  left:25%;
+}
+#playCtrl{
+  right:13.6%;
+}
+#stopCtrl{
+  right:16.2%;
+}
+#fileName{
+  position: fixed;
+  height:3%;
+  width:20%;
+  overflow:hidden;
+  left:3%;
+  color:#FFFFFF;
+  top:1.25%;
+  font-family:Georgia;
+}
+#audioCurrentTrack{
+  display:none;
+}
+div.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+  visibility: visible;
+  opacity: 0.8;
+  left: 100%;
+  top: 50%;
+  margin-top: -15px;
+  margin-left: 15px;
+  z-index: 999;
+}
+div.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -8px;
+  width: 0; height: 0;
+  border-right: 8px solid #000000;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+#backHome{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 2%;
+}
+#imgBack{
+  position:fixed;
+  width:1.5%;
+  left:0.25%;
+  bottom:0.25%;
+}
